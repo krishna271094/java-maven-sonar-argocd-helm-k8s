@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        //git branch: 'main', url: 'https://github.com/krishna271094/java-maven-sonar-argocd-helm-k8s.git'
+        //git branch: 'main', url: 'https://github.com/krishna271094/java-maven-sonar-argocd-helm-k8s/maven app/spring-boot-app.git'
       }
     }
     stage('Build and Test') {
